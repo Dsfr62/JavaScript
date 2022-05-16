@@ -6,30 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Script Tester</title>
-    <script src="select-elements.js"></script>
+    <script src="phones.js"></script>
 </head>
 
 <body>
     <h1>Script Test</h1>
 
-    <button onclick="show()">Exibir!</button>
+    <button onclick="addNewPhone()">New Phone</button>
+    <button onclick="printPhones()">Print phone number</button>
+    <button onclick="resetPhones()">Reset phones</button>
 
-    <p>
-        <label>Name:</label>
-        <input type="text" id="name" name="fullname">
-    </p>
+    <br>
 
-    <div id="phones">
+    <form id="phones">
         <p>
-            <label>Phone 01: </label>
-            <input type="text" name="phone" id="phone01">
+            <label>Phone 1: </label>
+            <input type="text" name="phone">
         </p>
-    
-        <p>
-            <label>Phone 02: </label>
-            <input type="text" name="phone" id="phone02">
-        </p>
-    </div>
+    </form>
 
 </body>
 
